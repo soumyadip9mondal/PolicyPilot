@@ -1,0 +1,72 @@
+
+> policypilot@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\SOUMYADIP\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Error: Can't resolve 'tailwindcss-animate' in 'C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\src\app'
+    [2m[at finishWithoutResolve (C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\enhanced-resolve\lib\Resolver.js:586:18)][0m
+    [2m[at C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\enhanced-resolve\lib\Resolver.js:678:14][0m
+    [2m[at C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43][0m
+    [2m[at C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m {
+  details: "resolve 'tailwindcss-animate' in 'C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\src\\app'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\package.json (relative path: ./src/app)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\src\\app\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\src\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\package.json (relative path: ./node_modules/tailwindcss-animate)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\node_modules\\tailwindcss-animate doesn't exist\n" +
+    '            .js\n' +
+    "              C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\node_modules\\tailwindcss-animate.js doesn't exist\n" +
+    '            .json\n' +
+    "              C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\node_modules\\tailwindcss-animate.json doesn't exist\n" +
+    '            .node\n' +
+    "              C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\node_modules\\tailwindcss-animate.node doesn't exist\n" +
+    '            .ts\n' +
+    "              C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\node_modules\\tailwindcss-animate.ts doesn't exist\n" +
+    "        C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\policyPilot\\node_modules\\tailwindcss-animate doesn't exist\n" +
+    "      C:\\Users\\SOUMYADIP\\OneDrive\\Desktop\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\SOUMYADIP\\OneDrive\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\SOUMYADIP\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./OneDrive/Desktop/policyPilot/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\src\app\globals.css:1:1: Can't resolve 'tailwindcss-animate' in 'C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\src\app'
+    at Input.error (OneDrive/Desktop/policyPilot/node_modules/postcss/lib/input.js:135:16) [C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\.next\build\chunks\d71a0_9c631daf._.js:4651:22]
+    at Root.error (OneDrive/Desktop/policyPilot/node_modules/postcss/lib/node.js:146:32) [C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\.next\build\chunks\d71a0_9c631daf._.js:928:38]
+    [at Object.Once (C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    at async LazyResult.runAsync (OneDrive/Desktop/policyPilot/node_modules/postcss/lib/lazy-result.js:293:11) [C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\.next\build\chunks\d71a0_9c631daf._.js:6214:21]
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\.next\build\chunks\[root-of-the-server]__23813769._.js:146:36]
+    at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23) [C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\.next\build\chunks\[root-of-the-server]__7de5f91a._.js:443:31]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/policyPilot/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/policyPilot/src/app/layout.tsx [Server Component]
+
+
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\.next\build\chunks\[root-of-the-server]__23813769._.js:146:36])
+    at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23) [C:\Users\SOUMYADIP\OneDrive\Desktop\policyPilot\.next\build\chunks\[root-of-the-server]__7de5f91a._.js:443:31])
