@@ -122,7 +122,7 @@ export function LandingFooter() {
 
                 {/* Bottom bar */}
                 <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-slate-500 text-xs">
-                    <div>© 2024 PolicyPilot. All rights reserved.</div>
+                    <div>© 2026  PolicyPilot. All rights reserved.</div>
                     <div>Made with ❤️ to help people access what they deserve.</div>
                 </div>
             </div>
