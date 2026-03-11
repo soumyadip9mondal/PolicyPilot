@@ -143,5 +143,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Soumyadip&fontSize=20&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20to%20help%20people%20access%20what%20they%20deserve.&fontSize=18&animation=fadeIn" width="100%"/>
 </div>
